@@ -143,6 +143,7 @@ header{
         padding-top: 8rem;
         flex-direction: column;
         justify-content: space-evenly;
+        flex-direction: column-reverse;
     }
     .hero-content{
         /* width: 100%; */
@@ -159,6 +160,5 @@ header{
         justify-content: center;
         align-items: center;
         max-width: 40rem;
-        display: none;
     }
 }
