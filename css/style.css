@@ -137,10 +137,10 @@ header{
     }
     header{
         position: fixed;
-        max-height: 4rem;
+        /* max-height: 4rem; */
     }
     .hero{
-        padding-top: 8rem;
+        /* padding-top: 8rem; */
         flex-direction: column;
         justify-content: space-evenly;
         flex-direction: column-reverse;
