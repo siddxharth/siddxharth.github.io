@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: #EAD9C8;
+    background-color: #2c3545;
     color: #2c3545;
     font-family: Heebo, sans-serif;
     display: flex;
@@ -17,6 +17,7 @@ body{
     align-items: center;
     flex-direction: column;
     height: 100vh;
+    scroll-behavior: none;
 }
 
 .container{
@@ -59,7 +60,7 @@ body{
 }
 
 .links-item-svg{
-    fill: #2c3545;
+    fill: #DC5A42;
     height: 3rem;
     width: 3rem;
     /* margin-right: 2rem; */
@@ -69,13 +70,13 @@ body{
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
-    border: 1px solid #2c3545;
-    box-shadow: 0px 4px 10px #d28d80;
+    /* box-shadow: 0px 4px 10px #fff; */
     transition: 0.3s;
+    border: 2px solid #EAD9C8;
 }
 
 svg:hover{
-    fill: #DC5A42;
+    fill: #EAD9C8;
     transition: 0.3s;
 }
 
