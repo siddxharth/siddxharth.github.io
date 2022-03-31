@@ -40,7 +40,7 @@ body{
     font-weight: bold;
     min-width: min-content;
     max-width: max-content;
-    display: none;
+    transition: 0.3s;
 }
 
 .text-title > span{
@@ -52,6 +52,7 @@ body{
     list-style: none;
     display: flex;
     justify-content: space-between;
+    transition: 0.3s;
 }
 
 .links-item{
@@ -80,6 +81,15 @@ svg:hover{
     transition: 0.3s;
 }
 
+.visitor-count{
+    position: absolute;
+    bottom: 1rem;
+    font-size: .7rem;
+    /* font-weight: bold; */
+    color: #EAD9C8;
+    transition: 0.3s;
+}
+
 @media screen and (max-width: 736px) {
     .links-item{
         padding: 1rem;
@@ -88,6 +98,10 @@ svg:hover{
     .image > img{
         width: 10rem;
         height: 10rem;
+        transition: 0.3s;
+    }
+    .text-title{
+        font-size: 1.8rem;
         transition: 0.3s;
     }
 }
@@ -100,6 +114,10 @@ svg:hover{
     .image > img{
         width: 10rem;
         height: 10rem;
+        transition: 0.3s;
+    }
+    .text-title{
+        font-size: 1.6rem;
         transition: 0.3s;
     }
 }
