@@ -79,7 +79,15 @@
       </ul>
     </div>
   </div>
-  <div class="visitor-count">This webpage has been visited <span class="visits"></span> times.</div>
+  <div class="visitor-count">This webpage has been visited times.</div>
+  <div id="visits">...</div>
+  <script>
+    import countapi from 'countapi-js';
+    
+    countapi.visits().then((result) => {
+        console.log(result.value);
+    });
+  </script>
 </body>
 
 </html>
