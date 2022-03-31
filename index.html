@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap" rel="stylesheet" />
-    <script async src="https://api.countapi.xyz/hit/https://siddxharth.github.io/visits?  callback=callbackName"></script>
     <script src="js/style.js"></script>
   </head>
   
@@ -79,15 +78,7 @@
       </ul>
     </div>
   </div>
-  <div class="visitor-count">This webpage has been visited times.</div>
-  <div id="visits">...</div>
-  <script>
-    import countapi from 'countapi-js';
-    
-    countapi.visits().then((result) => {
-        console.log(result.value);
-    });
-  </script>
+  <div id="count">0</div>
 </body>
 
 </html>
