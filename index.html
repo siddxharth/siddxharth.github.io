@@ -77,8 +77,18 @@
       </ul>
     </div>
   </div>
-  <div id="count"></div>
-  <script src="js/style.js"></script>
+  <div class="viewsCount">Visitor count: <span class="views"></span></div>
+  <script>
+    const views = document.querySelector('.views');
+    updateViews();
+    function updateViews(){
+      fetch('https://api.countapi.xyz/update/siddxharth/count/?amount=1')
+      .then(res => res.json())
+      .then(data => {
+        views.innerHTML = data.value;
+      });
+    }
+    </script>
 </body>
 
 </html>

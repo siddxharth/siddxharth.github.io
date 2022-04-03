@@ -81,7 +81,7 @@ svg:hover{
     transition: 0.3s;
 }
 
-.visitor-count{
+.viewsCount{
     position: absolute;
     bottom: 1rem;
     font-size: .7rem;
